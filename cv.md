@@ -1,4 +1,4 @@
-[![AVA.jpg](https://i.postimg.cc/RF4ZxZjn/AVA.jpg)](https://postimg.cc/06XspP58)
+![AVA](https://user-images.githubusercontent.com/119354788/205462267-67b87261-3c67-4dfa-8364-926271272480.jpg)
 
 ## Ravil Khakimov
 
