@@ -16,8 +16,7 @@
   <body>
     <div class="container-grid">
       <header class="header">
-        <img
-          class="avatar"
+        <img class="avatar"
           src="https://user-images.githubusercontent.com/119354788/205462486-b915db85-38b1-44ff-9e6f-852180f22742.jpg"
           alt="photo.jpg">
         <h1 class="head-text">Ravil Khakimov</h1>
@@ -25,15 +24,26 @@
       </header>
 
       <nav class="navi">
+        <div class="container-ul-navi">
         <ul class="container-navi">
-          <li><a href="#top">Home</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-          <li><a href="#info">Info</a></li>
-          <li><a href="#stack">Stack</a></li>
-          <li><a href="#code">Code</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#languages">Languages</a></li>
-        </ul>
+          <li class="main-navi-list"><a href="#top">Home</a></li>
+          <li class="main-navi-list"><a href="#contacts">Contacts</a></li>
+          <li class="main-navi-list"><a href="#info">Info</a></li>
+          <li class="main-navi-list"><a href="#stack">Stack</a></li>
+          <li class="main-navi-list"><a href="#code">Code</a></li>
+          <li class="main-navi-list"><a href="#education">Education</a></li>
+          <li class="main-navi-list"><a href="#languages">Languages</a></li>
+          <li class="main-navi-list"><a href="#projects">Projects</a></li>
+
+          <li class="adaptive-navi-list"><a href="#top"><img src="./assets/small/home_s.png" alt="home_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#contacts"><img src="./assets/small/contacts_s.png" alt="contacts_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#info"><img src="./assets/small/info_s.png" alt="info_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#stack"><img src="./assets/small/stack_s.png" alt="stack_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#code"><img src="./assets/small/code_s.png" alt="code_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#education"><img src="./assets/small/education_s.png" alt="education_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#languages"><img src="./assets/small/languages_s.png" alt="languges_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#projects"><img src="./assets/small/projects_s.png" alt="projects_icon.png"></a></li>
+        </ul></div>
       </nav>
 
       <main class="main">
@@ -42,42 +52,42 @@
           <div class="phone">
             <img
               class="contacts-icon"
-              src="./assets/phone_icon.png"
+              src="./assets/main/phone_icon.png"
               alt="phone.png"
               >
             Phone:
-            <a href="tel:+995511186234" class="phone">+995 511 186 234</a>
+            <a href="tel:+995511186234" class="phone" target="_blank">+995 511 186 234</a>
           </div>
           <div class="email">
             <img
               class="contacts-icon"
-              src="./assets/mail_icon.png"
+              src="./assets/main/mail_icon.png"
               alt="email.png"
               >
             E-mail:
-            <a href="mailto:NuclearDrake@yandex.ru" class="email"
+            <a href="mailto:NuclearDrake@yandex.ru" class="email" target="_blank"
               >NuclearDrake@yandex.ru</a
             >
           </div>
           <div class="telegram">
             <img
               class="contacts-icon"
-              src="./assets/telegram_icon.png"
+              src="./assets/main/telegram_icon.png"
               alt="telegram.png"
               >
             Telegram:
-            <a href="https://@BerryBerserker.t.me" class="telegram"
+            <a href="https://@BerryBerserker.t.me" class="telegram" target="_blank"
               >@BerryBerserker</a
             >
           </div>
           <div class="discord">
             <img
               class="contacts-icon"
-              src="./assets/discord_icon.png"
+              src="./assets/main/discord_icon.png"
               alt="discord.png"
               >
             Discord:
-            <a href="https://discordapp.com/users/Ravil#6871" class="discord"
+            <a href="https://discordapp.com/users/Ravil#6871" class="discord" target="_blank"
               >Ravil#6871</a
             >
           </div>
@@ -95,20 +105,22 @@
         <br>
         <h3 id="stack">Stack:</h3>
         <div class="continer-stack">
-            <div class="elements-stack"><img src="./assets/html_icon.png" alt="html.png"><br>HTML</div>
-            <div class="elements-stack"><img src="./assets/css_icon.png" alt="css.png"><br>CSS</div>
-            <div class="elements-stack"><img src="./assets/js_icon.png" alt="js.png"><br>JavaScript</div>
-            <div class="elements-stack"><img src="./assets/react_icon.png" alt="rect.png"><br>ReactJS</div>
+            <div class="elements-stack"><img src="./assets/main/html_icon.png" alt="html.png"><br>HTML</div>
+            <div class="elements-stack"><img src="./assets/main/css_icon.png" alt="css.png"><br>CSS</div>
+            <div class="elements-stack"><img src="./assets/main/js_icon.png" alt="js.png"><br>JavaScript</div>
+            <div class="elements-stack"><img src="./assets/main/react_icon.png" alt="rect.png"><br>ReactJS</div>
         </div>
         <br>
         <h3 id="code">
           Code:
-          <a
+          <br>
+        </h3>
+          <h4><a
             href="https://www.codewars.com/kata/5559e4e4bbb3925164000125"
-            class="codewars"
+            class="codewars" target="_blank"
             >Codewars 6th kyu Fibonacci Rabbits</a
           >
-        </h3>
+        </h4>
           <pre>
     function fib_rabbits(n, b) {
         let mature = 1;
@@ -125,33 +137,35 @@
         <br>
         <h3 id="education">Education:</h3>
         <div>
-          Unfinished higher : "St. Petersburg State Technological University of
+          <h5>Unfinished higher :</h5> "St. Petersburg State Technological University of
           Plant Polymers". (St. Petersburg) <br>
-          Secondary professional education : "Professional College No. 41"
+          <h5>Secondary professional education :</h5> "Professional College No. 41"
           (Kazan): Photographer (Diploma with distinction ).
         </div>
         <br>
         <h3 id="languages">Languages:</h3>
         <div>Russian (native), English (B1)</div>
+        <h3 id="projects">Projects: &darr;</h3>
       </main>
 
       <footer class="footer">
         <div class="container-footer">
           <div class="container-icons">
-            <a href="https://rs.school/js/" class="rss-link"
-              ><img src="./assets/rss_icon.png" alt="rss.jpg"
+
+            <a href="https://rs.school/js/" class="rss-link" target="_blank"
+              ><img src="./assets/main/rss_icon.png" alt="rss.jpg"
               >
             </a>
             <a
               href="https://github.com/CrassiusCurio/rsschool-cv"
-              class="github-link"
-              ><img src="./assets/github_icon.png" alt="github.png"
+              class="github-link" target="_blank"
+              ><img src="./assets/main/github_icon.png" alt="github.png"
               >
             </a>
             <a
               href="https://www.codewars.com/users/CrassiusCurio"
-              class="codewars-link"
-              ><img src="./assets/codewars_icon.png" alt="codewars.png"
+              class="codewars-link" target="_blank"
+              ><img src="./assets/main/codewars_icon.png" alt="codewars.png"
               >
             </a>
           </div>
