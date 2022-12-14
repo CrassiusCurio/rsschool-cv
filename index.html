@@ -1,10 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
-<body></body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans:wght@300&display=swap"
+      rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container-grid">
+      <header class="header">
+        <img class="avatar"
+          src="https://user-images.githubusercontent.com/119354788/205462486-b915db85-38b1-44ff-9e6f-852180f22742.jpg"
+          alt="photo.jpg">
+        <h1 class="head-text">Ravil Khakimov</h1>
+        <h2 class="head-text">Web developer (wannabe)</h2>
+      </header>
+
+      <nav class="navi">
+        <div class="container-ul-navi">
+        <ul class="container-navi">
+          <li class="main-navi-list"><a href="#top">Home</a></li>
+          <li class="main-navi-list"><a href="#contacts">Contacts</a></li>
+          <li class="main-navi-list"><a href="#info">Info</a></li>
+          <li class="main-navi-list"><a href="#stack">Stack</a></li>
+          <li class="main-navi-list"><a href="#code">Code</a></li>
+          <li class="main-navi-list"><a href="#education">Education</a></li>
+          <li class="main-navi-list"><a href="#languages">Languages</a></li>
+          <li class="main-navi-list"><a href="#projects">Projects</a></li>
+
+          <li class="adaptive-navi-list"><a href="#top"><img src="./assets/small/home_s.png" alt="home_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#contacts"><img src="./assets/small/contacts_s.png" alt="contacts_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#info"><img src="./assets/small/info_s.png" alt="info_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#stack"><img src="./assets/small/stack_s.png" alt="stack_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#code"><img src="./assets/small/code_s.png" alt="code_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#education"><img src="./assets/small/education_s.png" alt="education_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#languages"><img src="./assets/small/languages_s.png" alt="languges_icon.png"></a></li>
+          <li class="adaptive-navi-list"><a href="#projects"><img src="./assets/small/projects_s.png" alt="projects_icon.png"></a></li>
+        </ul></div>
+      </nav>
+
+      <main class="main">
+        <h3 id="contacts">Contacts:</h3>
+        <div>
+          <div class="phone">
+            <img
+              class="contacts-icon"
+              src="./assets/main/phone_icon.png"
+              alt="phone.png"
+              >
+            Phone:
+            <a href="tel:+995511186234" class="phone" target="_blank">+995 511 186 234</a>
+          </div>
+          <div class="email">
+            <img
+              class="contacts-icon"
+              src="./assets/main/mail_icon.png"
+              alt="email.png"
+              >
+            E-mail:
+            <a href="mailto:NuclearDrake@yandex.ru" class="email" target="_blank"
+              >NuclearDrake@yandex.ru</a
+            >
+          </div>
+          <div class="telegram">
+            <img
+              class="contacts-icon"
+              src="./assets/main/telegram_icon.png"
+              alt="telegram.png"
+              >
+            Telegram:
+            <a href="https://@BerryBerserker.t.me" class="telegram" target="_blank"
+              >@BerryBerserker</a
+            >
+          </div>
+          <div class="discord">
+            <img
+              class="contacts-icon"
+              src="./assets/main/discord_icon.png"
+              alt="discord.png"
+              >
+            Discord:
+            <a href="https://discordapp.com/users/Ravil#6871" class="discord" target="_blank"
+              >Ravil#6871</a
+            >
+          </div>
+        </div>
+        <br>
+        <h3 id="info">Info:</h3>
+        <div>
+          I am an ordinary person, who got interest in programming long time ago
+          in elementary school. These were an ancient languages as Basic,
+          VisualBasic, Pascal. Nowaday i'm focused on JavaScript, ReactJS.
+          Worked in furniture industry, sales and photography (my education and
+          basic background). I can mark my strong sides: honest, punctual,
+          assiduous, attentive to details, creativity.
+        </div>
+        <br>
+        <h3 id="stack">Stack:</h3>
+        <div class="continer-stack">
+            <div class="elements-stack"><img src="./assets/main/html_icon.png" alt="html.png"><br>HTML</div>
+            <div class="elements-stack"><img src="./assets/main/css_icon.png" alt="css.png"><br>CSS</div>
+            <div class="elements-stack"><img src="./assets/main/js_icon.png" alt="js.png"><br>JavaScript</div>
+            <div class="elements-stack"><img src="./assets/main/react_icon.png" alt="rect.png"><br>ReactJS</div>
+        </div>
+        <br>
+        <h3 id="code">
+          Code:
+          <br>
+        </h3>
+          <h4><a
+            href="https://www.codewars.com/kata/5559e4e4bbb3925164000125"
+            class="codewars" target="_blank"
+            >Codewars 6th kyu Fibonacci Rabbits</a
+          >
+        </h4>
+          <pre>
+    function fib_rabbits(n, b) {
+        let mature = 1;
+        let offspring = 0;
+        let immature = 0;
+        for (i = 1; i &lt; n; i++) {
+            immature = offspring;
+            offspring = mature * b;
+            mature += immature;
+        }
+        return n == 0 ? n : mature;
+    }
+    </pre>
+        <br>
+        <h3 id="education">Education:</h3>
+        <div>
+          <h5>Unfinished higher :</h5> "St. Petersburg State Technological University of
+          Plant Polymers". (St. Petersburg) <br>
+          <h5>Secondary professional education :</h5> "Professional College No. 41"
+          (Kazan): Photographer (Diploma with distinction ).
+        </div>
+        <br>
+        <h3 id="languages">Languages:</h3>
+        <div>Russian (native), English (B1)</div>
+        <h3 id="projects">Projects: &darr;</h3>
+      </main>
+
+      <footer class="footer">
+        <div class="container-footer">
+          <div class="container-icons">
+
+            <a href="https://rs.school/js/" class="rss-link" target="_blank"
+              ><img src="./assets/main/rss_icon.png" alt="rss.jpg"
+              >
+            </a>
+            <a
+              href="https://github.com/CrassiusCurio/rsschool-cv"
+              class="github-link" target="_blank"
+              ><img src="./assets/main/github_icon.png" alt="github.png"
+              >
+            </a>
+            <a
+              href="https://www.codewars.com/users/CrassiusCurio"
+              class="codewars-link" target="_blank"
+              ><img src="./assets/main/codewars_icon.png" alt="codewars.png"
+              >
+            </a>
+          </div>
+        </div>
+        <div class="date">2022</div>
+      </footer>
+    </div>
+  </body>
 </html>
